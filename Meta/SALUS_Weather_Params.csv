@@ -1,0 +1,5 @@
+SALUS Variable,Decription,Units
+Tmax,Daily maximum temperature,degree C
+Tmin,Daily minimum temperature,degree C
+Rain,Daily Precipitation,mm
+SRAD,Daily solar radiation,MJ m^-2 d^-1
