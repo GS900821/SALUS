@@ -1,0 +1,17 @@
+﻿SALUS variable,Description,SALUS unit,SSURGO Variable,SSURGO unit,Unit convertor
+Salb ,Dry soil albedo,,albedodry_r,,
+BD,Bulk Density,Mg m^-3,dbovendry_r,g/cm3,1
+CaCo,Calcium carbonate content,g kg^-1,caco3_r,%,0.1
+Clay,Clay content,%,claytotal_r,%,1
+pH,pH in the water,,ph1to1h2o_r,,
+Silt,Silt Content,%,silttotal_r,%,1
+ZLYR,Depth to base of layer,cm,hzdepb_r,cm,1
+DUL,Drained upper limit of soil water availability.,m^3 m^-3,,,BD*0.186*((Sand/Clay)^-0.141)
+LL,Lower limit of soil water availability,m^3 m^-3,,,DUL – PESW
+OC,Organic Carbon,%,om_r,%,OM*0.58
+PESW,Plant extractable soil water,m^3 m^-3,,,0.132 – ((2.5*(10^-6)) e^(0.105*Sand))
+SAT,Saturated soil water content,m^3 m^-3,,,1 – BD/2.65
+SHF,Soil hospitality factor,,Hzdept_r,cm,"(1. - (ZA/300.)) ^ WCG, ZA (top_depth + (thickness / 2.)), WCG (2 or 3)"
+Stones,Coarse fragment content %,,,,100 - silttotal_r - claytotal_r - fraggt10_r - frag3to10_r
+SWCN,"Saturated hydraulic conductivity, macropore",cm h^-1,ksat_r,mm sec^-1,100/36
+TotN,Total N,%,om_r,%,OM*0.05
