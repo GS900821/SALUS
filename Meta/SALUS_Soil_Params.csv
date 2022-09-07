@@ -1,4 +1,4 @@
-﻿SALUS variable,Description,SALUS unit,SSURGO Variable,SSURGO unit,Unit convertor
+﻿SALUS variable,Description,SALUS unit,SSURGO Variable,SSURGO unit,Unit convertor or Equation
 Salb ,Dry soil albedo,,albedodry_r,,
 BD,Bulk Density,Mg m^-3,dbovendry_r,g/cm3,1
 CaCo,Calcium carbonate content,g kg^-1,caco3_r,%,0.1
