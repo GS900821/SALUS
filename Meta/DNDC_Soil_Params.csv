@@ -1,0 +1,29 @@
+﻿DNDC Description,DNDC unit,SSURGO Variable,SSURGO unit,Unit convertor
+Land-use type,,,,
+Soil Texture,,,,
+Bulk Density,g cm^-3,dbovendry_r,g/cm3,1
+soil pH ,,ph1to1h2o_r,,
+Clay content,%,claytotal_r,%,1
+Field Capacity,,wthirdbar_r,,
+Wilting Point,,wfifteenbar_r,,
+Hydro-conductivity,m/hr,ksat_r,mm sec^-1,3.6
+Porosity,,,,(1 - dbovendry_r/partdensity)*100
+By-pass flow rate,,,,
+Depth of water retention layer,,,,
+Water logging problem,,,,
+Highest groundwater table depth,m,,,
+SOC at surface soil,kg C/kg,,,
+SOC decrease rate below top soil ,,,,
+Soil partitioning,,,,
+V.l. litter,,,,
+L. litter,,,,
+R. litter,,,,
+Humads,,,,
+Humus,,,,
+IOC,,,,
+C/N,,,,
+Initial NO3(-) concentration at surface soil ,mg N/kg,,,
+Initial NH4(+)concentration at surface soil ,mg N/kg,,,
+Microbial activity index,,,,
+Slope,,slope_r,,
+Soil salinity index ,,,,

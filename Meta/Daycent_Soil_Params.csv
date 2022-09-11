@@ -1,0 +1,6 @@
+﻿Daycent variable,Description,Daycent unit,SSURGO Variable,SSURGO unit,Unit convertor
+CLAY ,Clay content,%,claytotal_r,%,1
+SILT ,Silt Content,%,silttotal_r,%,1
+SAND ,Sand content,%,,,sandco_r+sandmed_r+sandfine_r+sandvf_r
+BULKD ,Bulk Density,g/cm^3,dbovendry_r,g/cm^3,1
+NLAYER ,number of soil layers to simulate ,,,,
